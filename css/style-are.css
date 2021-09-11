@@ -1,0 +1,99 @@
+*
+{
+    direction: rtl;
+}
+.fa-users 
+{
+    float: left;
+    margin-top: -30px;
+    margin-left: 14pc;
+    color: #fff;
+}
+#intro .subject .log-in 
+{
+    float: left;
+    margin-top: -34px;
+    margin-left: 150px;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+#intro .subject .language
+{
+    float: left;
+    margin-top: -30px;
+    margin-left: 79px;
+    color: #fff;
+}
+/* end */
+.text-who .photo-text 
+{
+    margin-right: 15pc;
+}
+/* end */
+.employees 
+{
+    margin-right: 9pc;
+}
+.person .preson1 img 
+{
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: -33pc;
+}
+.person .preson1 h6 
+{
+    position: relative;
+    left: -34pc;
+    top: 0pc;
+}
+.person .preson1 .text1 
+{
+    background-color: transparent;
+    position: relative;
+    top: -42px;
+    left: -483px;
+    color: #fff;
+}
+.person .preson2 img 
+{
+    height: 50px;
+    position: relative;
+    left: -5pc;
+}
+.person .preson2 h6 
+{
+    top: 0pc;
+    position: relative;
+    left: -6pc;
+}
+.person .preson2 .text2 
+{
+    background-color: transparent;
+    position: relative;
+    top: -40px;
+    left: -35px;
+}
+.person .preson3 img 
+{
+    height: 50px;
+    right: -365px;
+}
+.person .preson3 h6 
+{
+    right: -349px;
+    top: -30px;
+}
+.person .preson3 .text3 
+{
+    top: -70px;
+    left: 412px;
+}
+.contact 
+{
+    width: 753px;
+    top: -70px;
+    left: -182px;
+}
+/* end */

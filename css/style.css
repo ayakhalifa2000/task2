@@ -1,0 +1,1125 @@
+*
+{
+    font-family: 'Exo 2', sans-serif;
+}
+#intro .subject
+{
+    height: 40px;
+    background-color: #484B52;
+    margin-top: -20px;
+}
+#intro .subject ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+#intro .subject ul li
+{
+    margin: 5px 10px;
+}
+#intro .subject ul li:first-child
+{
+    font-weight: bolder;
+    font-size: 20ox;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+#intro .subject ul li:first-child::first-letter
+{
+    color:#a56666;
+}
+#intro .subject ul li:nth-child(2)
+{
+    color:#45CBA6;
+}
+#intro .subject ul li:nth-child(2):hover
+{
+    color:#45CBA6;
+}
+#intro .subject ul li:nth-child(3)
+{
+    color: #fff;
+}
+#intro .subject ul li:nth-child(3):hover
+{
+    color:#45CBA6;
+}
+#intro .subject ul li .drop
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0px 5px;
+    outline: none;
+}
+#intro .subject ul li .drop:hover
+{
+    color:#45CBA6 ;
+}
+#intro .subject ul li:nth-child(5)
+{
+    color: #fff;
+}
+#intro .subject ul li:nth-child(5):hover
+{
+    color:#45CBA6;
+}
+.fa-users
+{
+    float: right;
+    margin-top: -30px;
+    margin-right: 200px;
+    color: #fff;
+}
+#intro .subject .log-in
+{
+    float: right;
+    margin-top: -34px;
+    margin-right: 133px;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+#intro .subject .log-in:hover
+{
+    cursor: pointer;
+    color: gold;
+}
+#intro .subject .language
+{
+    float: right;
+    margin-top: -30px;
+    margin-right: 50px;
+    color: #fff;
+}
+#intro .subject .language:hover
+{
+    color: hotpink;
+    width: 72px;
+    transition: all 2s ease-in;
+    height: 20px;
+}
+/* end the intro  */
+/* start style for images */
+.img .imges
+{
+    background: url(../images/newspaper.jpg) no-repeat;
+    height: 440px;
+    margin-top: -20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.img .imges p
+{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 2pc;
+}
+.img .imges h2
+{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 3pc;
+    font-size: 50px;
+}
+.img .imges h5
+{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 5pc;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: darkgray;
+    width: 30%;
+    left: 30pc;
+    box-shadow: 20px 0px 1px 3px grey;
+    font-style: italic;
+}
+/* end the images section */
+/* start style for section text-who  */
+.text-who
+{
+    text-align: center;
+    height: 430px;
+}
+.text-who h4
+{
+    font-size: 27px;
+    font-weight: bold;
+}
+.text-who .prargpha
+{
+    margin-top: -25px;
+    font-weight: bold;
+}
+.text-who .photo-text 
+{
+    display: flex;
+    margin-left: 15pc;
+}
+/* photo one */
+.text-who .photo-text .fa-tv
+{
+    font-size: 40px;
+    color: #45CBA6;
+}
+.text-who .photo-text .computer
+{
+    background-color: #F6FAF9;
+    margin-right: 2pc;
+}
+.text-who .photo-text .computer h6
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 9px;
+}
+.text-who .photo-text .computer p
+{
+    font-size: 15px;
+}
+/* photo two */
+.text-who .photo-text .tachometer p
+{
+    font-size: 15px;
+}
+.text-who .photo-text .fa-tachometer-alt
+{
+    font-size: 40px;
+    color: #45CBA6;
+}
+.text-who .photo-text .tachometer
+{
+    background-color: #F6FAF9;
+    margin-right: 2pc;
+}
+.text-who .photo-text .tachometer h6
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 9px;
+}
+/* photo three */
+.text-who .photo-text .shopping  p
+{
+    font-size: 15px;
+}
+.text-who .photo-text .fa-shopping-cart
+{
+    font-size: 40px;
+    color: #45CBA6;
+}
+.text-who .photo-text .shopping
+{
+    background-color: #F6FAF9;
+    margin-right: 2pc;
+}
+.text-who .photo-text .shopping h6
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 9px;
+}
+/* photo four */
+.text-who .photo-text .cogs  p
+{
+    font-size: 15px;
+}
+.text-who .photo-text .fa-cogs
+{
+    font-size: 40px;
+    color: #45CBA6;
+}
+.text-who .photo-text .cogs
+{
+    background-color: #F6FAF9;
+    margin-right: 2pc;
+}
+.text-who .photo-text .cogs h6
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 9px;
+}
+/* sumbit */
+.more
+{
+    background-color: #45CBA6;
+    color: #fff;
+    border: none;
+    position: relative;
+    bottom: -40px;
+    height: 35px;
+    box-shadow: 1px 1px 1px 1px #45cba6;
+}
+.more:hover
+{
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px gray;
+    cursor: pointer;
+}
+/* end section */
+.labtop
+{
+    height: 350px;
+}
+.labtop h3
+{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+/* style for images */
+.works
+{
+    display: flex;
+    margin: 5px 200px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.works img
+{
+    width: 24.33%;
+    height: 154px;
+    margin-right: 3pc;
+    border: 8px inset gray;
+}
+.work
+{
+    background-color: #45CBA6;
+    color: #fff;
+    border: none;
+    height: 35px;
+    box-shadow: 1px 1px 1px 1px #45cba6;
+    position: relative;
+    left: 37pc;
+}
+.work:hover
+{
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px gray;
+    cursor: pointer;
+}
+/* end section works */
+/* style for employees */
+.employees
+{
+    height: 413px;
+    background-color: #484B52;
+}
+.infromaton
+{
+    display: flex;
+    margin-left: 3pc;
+}
+.employees p
+{
+    padding-bottom: 8px;
+    background-color: #fff;
+    width: 30%;
+    margin-right: 3pc;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #0ca077;
+}
+.person
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+p.speech 
+{
+    position: relative;
+    width: 278px;
+    height: 133px;
+    text-align: center;
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+p.speech:before 
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    top: 146px;
+    border: 25px solid;
+    border-color: #666 transparent transparent #666
+}
+p.speech:after 
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 31px;
+    top: 165px;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
+.person .preson1 img 
+{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -240px;
+    margin-top: 0pc;
+}
+.person .preson1 h6 
+{
+    margin-left: -233px;
+    margin-top: 0pc;
+}
+.person .preson1 .text1 
+{
+    background-color: transparent;
+    position: relative;
+    top: -30px;
+    left: -262px;
+    color: #fff;
+}
+.person .preson2 img
+{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+.person .preson2 h6 
+{
+    margin-top: 0pc;
+}
+.person .preson2 .text2 
+{
+    background-color: transparent;
+    position: relative;
+    top: -30px;
+    left: -34px;
+    color: #fff;
+}
+.person .preson3 img
+{
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: -407px;
+}
+.person .preson3 h6
+{
+    position: relative;
+    right: -419px;
+    top: -24px;
+}
+.person .preson3 .text3
+{
+    background-color: transparent;
+    position: relative;
+    top: -54px;
+    left: 392px;
+    color: #fff;
+}
+/* end part informaion */
+.contact
+{
+    width: 890px;
+    background-color: #0ca077;
+    color: #fff;
+    position: relative;
+    top: -72px;
+    left: 255px;
+    border: none;
+    height: 35px;
+}
+.contact:hover
+{
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px gray;
+    cursor: pointer;
+}
+.fa-chevron-right
+{
+    position: relative;
+    right: -79pc;
+    bottom: -172px;
+    color: #fff;
+}
+.fa-chevron-left
+{
+    position: relative;
+    bottom: -11pc;
+    right: -2pc;
+    color: #fff;
+}
+/* End this section */
+/* start section worked */
+.worked
+{
+    height: 150px;
+}
+.worked h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+.business
+{
+    display: flex;
+    justify-content: center;
+
+}
+.business img
+{
+    height: 80px;
+    margin-right: 4pc;
+    margin-left: 4pc;
+}
+/* end part contact */
+/* style for social */
+.social-medai
+{
+    height: 100px;
+    background-color:#484B52 ;
+}
+.social-medai .part-medai
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #fff;
+}
+.social-medai .part-medai i
+{
+    margin-right: 2pc;
+    margin-top: 1pc;
+}
+.social-medai .part-medai i:hover
+{
+    color: #0ca077;
+    cursor: pointer;
+}
+.social-medai p
+{
+    font-size: 16px;
+    text-align: center;
+}
+/* ******************************************************************************************************** */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+#intro .subject
+{
+    height: 40px;
+    background-color: #484B52;
+    margin-top: -20px;
+    width: 81pc;
+}
+.img .imges 
+{
+    width: 80pc;
+}
+.img .imges h5 
+{
+    left: 27pc;
+}
+.text-who .photo-text
+{
+    display: flex;
+    margin-left: 5pc;
+    flex-wrap: wrap;
+}
+.text-who 
+{
+    height: 659px;
+    position: relative;
+    left: 22pc;
+}
+.labtop 
+{
+    height: 740px;
+    position: relative;
+    left: 23pc;
+}
+.labtop h3 
+{
+    font-weight: bold;
+    font-size: 43px;
+    text-align: center;
+}
+.employees 
+{
+    height: 368px;
+    left: 0pc;
+    width: 80pc;
+}
+.works 
+{
+    display: flex;
+    margin: 5px 111px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.works img
+{
+    width: 58.33%;
+}
+.work 
+{
+    left: 14pc;
+}
+.fa-chevron-right 
+{
+    right: -1224px;
+}
+.person .preson1 img 
+{
+    margin-left: -132px;
+    margin-top: 0pc;
+}
+.person .preson1 h6 
+{
+    margin-left: -126px;
+    margin-top: 0pc;
+}
+.person .preson1 .text1 
+{
+    top: -30px;
+    left: -158px;
+}
+.person .preson2 img 
+{
+    margin-left: 80px;
+}
+
+.person .preson2 h6 
+{
+    position: relative;
+    left: -4pc;
+}
+.person .preson2 .text2
+{
+    top: -30px;
+    left: 56px;
+}
+.person .preson3 img 
+{
+    right: -391px;
+}
+.person .preson3 img 
+{
+    right: -391px;
+}
+.person .preson3 h6
+{
+    right: -398px;
+}
+.person .preson3 .text3 
+{
+    left: 367px;
+}
+.contact 
+{
+    width: 563px;
+    left: 419px;
+}
+.business img 
+{
+    height: 65px;
+    margin-right: -2pc;
+}
+#intro .subject ul li 
+{
+    margin: 4px 20px;
+}
+#intro .subject .log-in 
+{
+    margin-top: -34px;
+    margin-right: 127px;
+}
+#intro .subject .language 
+{
+    margin-top: -29px;
+    margin-right: 32px;
+}
+.fa-users 
+{
+    overflow: hidden;
+}
+.worked 
+{
+    height: 150px;
+    width: 76pc;
+}
+.social-medai 
+{
+    height: 100px;
+    width: 80pc;
+}
+}
+/* *************************************************************************************************************** */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)  
+{
+#intro .subject
+{
+    height: 40px;
+    background-color: #484B52;
+    margin-top: -20px;
+    width: 116pc;
+}
+#intro .subject ul li
+{
+    margin: 4px 20px;
+}
+.fa-users
+{
+    margin-top: -28px;
+    margin-right: 203px;
+}
+#intro .subject .log-in
+{
+    float: right;
+    margin-top: -31px;
+    margin-right: 129px
+}
+#intro .subject .language 
+{
+    margin-top: -29px;
+    margin-right: 27px;
+}
+.img .imges
+{
+    height: 440px;
+    margin-top: -20px;
+    width: 116pc;
+}
+.img .imges h5
+{
+    top: 5pc;
+    width: 30%;
+    left: 38pc;
+}
+.text-who 
+{
+    width: 244%;
+}
+.text-who h4
+{
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    left: 13pc;
+}
+.text-who .prargpha 
+{
+    margin-top: -25px;
+    font-weight: bold;
+    position: relative;
+    left: 13pc;
+}
+.more 
+{
+    left: 14pc;
+}
+.text-who .photo-text 
+{
+    margin-left: 31pc;
+}
+.labtop 
+{
+    height: 740px;
+    width: 116pc;
+}
+.works
+{
+    margin: 5px 122px;
+}
+.works img 
+{
+    width: 20.33%;
+    height: 154px;
+    margin-right: 3pc;
+}
+.work  
+{
+    left: 52pc;
+    top: 2pc;
+}
+.labtop {
+    height: 443px;
+    width: 116pc;
+}
+.employees 
+{
+    height: 431px;
+    width: 116pc;
+}
+.fa-chevron-left 
+{
+    bottom: -15pc;
+    right: -2pc;
+}
+.fa-chevron-right 
+{
+    bottom: -224px;
+    left: 111pc;
+}
+.person .preson1 img 
+{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -205px;
+    margin-top: 0pc;
+}
+.person .preson1 h6
+{
+    margin-left: -194px;
+    margin-top: 0pc;
+}
+.person .preson1 .text1 
+{
+    top: -30px;
+    left: -223px;
+}
+.person .preson2 img 
+{
+    height: 50px;
+    margin-left: 284px;
+}
+.person .preson2 h6 
+{
+    margin-left: 150px;
+    margin-top: 0pc;
+    left: 9pc;
+    position: relative;
+}
+.person .preson2 .text2 
+{
+    top: -30px;
+    left: 265px;
+}
+.person .preson3 img 
+{
+    height: 50px;
+    right: -496px;
+}
+.person .preson3 h6 
+{
+    right: -499px;
+    top: -24px;
+}
+.person .preson3 .text3 
+{
+    top: -54px;
+    left: 462px;
+}
+.contact {
+    width: 86pc;
+    top: -72px;
+    left: 177px;
+    height: 35px;
+} 
+.worked 
+{
+    width: 108pc;
+}
+.social-medai 
+{
+    height: 6pc;
+    width: 116pc;
+}
+}
+/* ************************************************************************************************************ */
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+#intro .subject 
+{
+    width: 171pc;
+}
+.img .imges 
+{
+    width: 132pc;
+    margin-left: 24pc;
+}
+
+.img .imges h5 
+{
+    width: 19%;
+    left: 51pc
+}
+.text-who h4 
+{
+    position: relative;
+    left: 57pc;
+    font-size: 47px;
+}
+.text-who .prargpha
+{
+    position: relative;
+    left: 56pc;
+}
+.text-who 
+{
+    text-align: center;
+    height: 530px;
+}
+.more
+{
+    left: 56pc;
+}
+.text-who .photo-text 
+{
+    margin-left: 64pc;
+}
+.labtop 
+{
+    width: 159pc;
+}
+.works img 
+{
+    width: 15.33%;
+}
+.work 
+{
+    left: 74pc;
+}
+.employees 
+{
+    width: 108pc;
+    margin-left: 26pc;
+}
+.fa-chevron-right 
+{
+    position: relative;
+    right: -104pc;
+}
+.contact 
+{
+    width: 890px;
+    top: -72px;
+    left: 454px
+}
+.worked 
+{
+    height: 150px;
+    width: 171pc;
+}
+.social-medai 
+{
+    height: 6pc;
+    width: 170pc;
+    margin-left: 0pc;
+}
+}
+/* ************************************************************************************************************ */
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    #intro .subject
+{
+    margin-left: 26pc;
+    width: 120pc;
+}
+.img .imges 
+{
+    margin-left: 26pc;
+    width: 120pc;
+}
+.img .imges h5
+{
+    width: 27%;
+    left: 45pc;
+}
+.text-who
+{
+    text-align: center;
+    height: 535px;
+}
+.text-who h4 
+{
+    position: relative;
+    left: 52pc;
+}
+.text-who .prargpha 
+{
+    font-size: 24px;
+    position: relative;
+    left: 51pc;
+}
+.text-who .photo-text 
+{
+    margin-left: 67pc;
+    margin-top: 4pc;
+}
+.more 
+{
+    left: 52pc;
+    height: 36px;
+    width: 155px;
+}
+.labtop 
+{
+    height: 443px;
+    width: 169pc;
+}
+.work 
+{
+    height: 43px;
+    left: 73pc;
+    top: 3pc;
+    width: 20pc;
+}
+.employees 
+{
+    height: 431px;
+    width: 114pc;
+    margin-left: 24pc;
+}
+.fa-chevron-right 
+{
+    bottom: -224px;
+    left: 110pc;
+}
+.person .preson1 img 
+{
+    margin-top: 0pc;
+}
+.contact 
+{
+    width: 86pc;
+    top: -47px;
+    left: 335px;
+    height: 45px;
+}
+.worked 
+{
+    height: 150px;
+    width: 172pc;
+}
+.social-medai 
+{
+    height: 6pc;
+    width: 164pc;
+}
+}
+/* ********************************************************************************************************* */
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{ 
+#intro .subject 
+{
+    margin-left: 0pc;
+    width: 86pc;
+}
+.img .imges 
+{
+
+    width: 86pc;
+}
+.img .imges h5 
+{
+    width: 30%;
+    left: 28pc;
+}
+.text-who 
+{
+    text-align: center;
+    height: 476px;
+}
+.text-who h4
+{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 7pc;
+}
+.text-who .prargpha 
+{
+    margin-top: -39px;
+    margin-left: 3pc;
+    font-size: 30px;
+}
+.more 
+{
+    left: 3pc;
+}
+.works img 
+{
+    width: 29.33%;
+    height: 154px;
+    margin-right: 3pc;
+    margin-left: 6pc;
+}
+.labtop h3 
+{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 3pc;
+}
+.work 
+{
+    left: 40pc;
+    top: 1pc;
+}
+.employees 
+{
+    height: 389px; 
+    width: 67pc;
+    margin-left: 11pc;
+}
+.fa-chevron-right 
+{
+    right: -1022px
+}
+.person .preson2 img 
+{
+    height: 50px;
+    margin-left: -12px;
+    margin-top: 0pc;
+}
+.person .preson3 img 
+{
+    height: 50px;
+    right: -197px;
+    top: 0pc;
+}
+.person .preson3 h6 
+{
+    right: -203px;
+    top: -35px;
+}
+.person .preson3 .text3 
+{
+    top: -74px;
+    left: 175px;
+}
+.contact 
+{
+    width: 753px;
+    top: -70px;
+    left: 114px;
+}
+.worked 
+{
+    height: 150px;
+    width: 90pc;
+}
+.social-medai 
+{
+    height: 83px;
+    width: 86pc;
+}
+}
+/* ********************************************************************************************************* */
